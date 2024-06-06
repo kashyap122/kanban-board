@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import Board from "./Components/Board/Board";
 
 import "./App.css";
+import { Edit2 } from "react-feather";
 import Editable from "./Components/Editabled/Editable";
 
 function App() {
@@ -123,7 +124,7 @@ function App() {
   return (
     <div className="app">
       <div className="app_nav">
-        <h1>Kanban Board</h1>
+        <h1>Kashyap's Kanban Board <Edit2/></h1>
       </div>
       <div className="app_boards_container">
         <div className="app_boards">
